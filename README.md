@@ -80,3 +80,8 @@ Then run it on your image:
 ```
 syft typosquatted-image:latest
 ```
+
+List the pip packages running within the pod:
+```
+docker run --rm docker.cloudsmith.io/acme-corporation/acme-repo-one/typosquatted-image:latest pip list
+```
