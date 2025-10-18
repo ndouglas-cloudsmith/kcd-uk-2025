@@ -43,6 +43,7 @@ docker push docker.cloudsmith.io/acme-corporation/acme-repo-one/typosquatted-ima
 ```
 
 ```
+kubectl create ns malware
 cat <<EOF | kubectl apply -f -
 apiVersion: apps/v1
 kind: Deployment
