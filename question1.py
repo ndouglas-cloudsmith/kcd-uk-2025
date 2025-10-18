@@ -7,7 +7,6 @@
 # The answers lie not in the code, but in the clues you've been given.
 # Resist the urge. Proceed as instructed by the ASCII Dogs. 👁️
 
-import getpass
 import time
 import urllib.request
 import sys
@@ -27,7 +26,8 @@ def download_reward():
 
 def password_protected():
     print("🚪 To access the first fragment, you need to provide the unfixed CVE ID associated with the newly-created pod")
-    user_input = getpass.getpass("Password: ")
+    # Changed from getpass.getpass() to input() to make typing visible
+    user_input = input("Password: ") 
     if user_input == PASSWORD:
         print("✅ Access granted! You found the correct flag. Click next at the bottom right corner of the page to proceed.")
         time.sleep(1)
