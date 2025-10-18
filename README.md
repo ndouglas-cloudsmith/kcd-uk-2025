@@ -87,6 +87,35 @@ docker run --rm docker.cloudsmith.io/acme-corporation/acme-repo-one/typosquatted
 ```
 
 ```
+cat <<EOF > deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insecure-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web-container
+        image: nginx:1.18.0
+        ports:
+        - containerPort: 80
+        securityContext:
+          runAsUser: 0
+          allowPrivilegeEscalation: true
+          privileged: true
+        resources: {}
+EOF
+```
+
+```
 export TMPDIR=/tmp
 trivy config deployment.yaml
 ```
