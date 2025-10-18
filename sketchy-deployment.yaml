@@ -1,0 +1,63 @@
+# WARNING: This file deliberately contains dummy secrets for testing security scanners.
+# DO NOT use any of these patterns for real credentials.
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config-secrets
+data:
+  # Trivy should detect this known Slack token prefix
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+  
+  # Trivy should detect this keyword + high-entropy string
+  STRIPE_API_KEY: "sk_live_1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t"
+
+  # Trivy should detect this private key block
+  ssh.key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEogIBAAKCAQEAuP/dbordPBznNAgQ5zYkFpI6RZ+xWLEwE/bUZlqaUe8mJ4c0
+    .... (dummy data for test) ....
+    Q4M4nqlw3sNcad6sJjR3LzPh8A3NLnlyiMfGCU3nQ9Tqjn9Jqprt+dlSgGgA5Q/g
+    nWP1/sM/6T1N0Lg+sYwS+jKaqq1ihdvxyWc7EaweQJAYeT8I6lXmmsw==
+    -----END RSA PRIVATEKEY-----
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secret-test-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-secret-app
+  template:
+    metadata:
+      labels:
+        app: my-secret-app
+    spec:
+      containers:
+      - name: my-app
+        image: nginx
+        ports:
+        - containerPort: 80
+        env:
+          # Trivy should detect this keyword + high-entropy string
+          - name: DB_PASSWORD
+            value: "MyP@ssw0rd!_12345_abcde-fghi-jklm"
+            
+          # Trivy should detect this known AWS key prefix
+          - name: AWS_ACCESS_KEY_ID
+            value: "AKIAIOSFODNN7EXAMPLE"
+            
+          # Trivy should detect this as a high-entropy string
+          - name: AWS_SECRET_ACCESS_KEY
+            value: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+          # Trivy should detect this known GitHub token prefix
+          - name: GITHUB_TOKEN
+            value: "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJk"
+            
+          # Trivy should detect this known Slack token prefix
+          - name: SLACK_BOT_TOKEN
+            value: "xoxb-1234567890-0987654321-aBcDeFgHiJkLmNoPqRsTuVwX"
