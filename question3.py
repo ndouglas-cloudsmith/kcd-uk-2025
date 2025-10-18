@@ -15,8 +15,8 @@ import sys
 PASSWORD = "only-cloudsmith-images"
 
 def download_reward():
-    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward2.txt"
-    save_as = "reward2.txt"
+    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward3.txt"
+    save_as = "reward3.txt"
     try:
         print("\n📥 Downloading your reward file...")
         urllib.request.urlretrieve(reward_url, save_as)
@@ -25,11 +25,11 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the first fragment, you need to provide the MALWARE ID associated with the one Python package in our running pod")
+    print("🚪 To access the third fragment, you need to name of the Gatekeeper constraint that denied the deployment.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
-        print("✅ Access granted! You found the second flag. Nice! Click next at the bottom right corner of the page to proceed.")
+        print("✅ Access granted! You found the third flag. Nice! Click next at the bottom right corner of the page to proceed.")
         time.sleep(1)
         download_reward()
     else:
