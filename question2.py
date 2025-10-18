@@ -25,7 +25,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the first fragment, you need to provide the MALWARE ID associated with the one Python package in our running pod")
+    print("🚪 To access the second fragment, you need to provide the MALWARE ID associated with the one Python package in our running pod")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
