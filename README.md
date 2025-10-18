@@ -119,3 +119,7 @@ EOF
 export TMPDIR=/tmp
 trivy config deployment.yaml
 ```
+
+```
+trivy config --severity HIGH deployment.yaml
+```
