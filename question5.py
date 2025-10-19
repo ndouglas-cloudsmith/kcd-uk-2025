@@ -15,8 +15,8 @@ import sys
 PASSWORD = "k8s.gcr.io/multitenancy/externalip-webhook:v1.0.0"
 
 def download_reward():
-    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward4.txt"
-    save_as = "reward4.txt"
+    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward5.txt"
+    save_as = "reward5.txt"
     try:
         print("\n📥 Downloading your reward file...")
         urllib.request.urlretrieve(reward_url, save_as)
@@ -25,11 +25,11 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the fourth fragment, you need to provide the name of the file containing the sensitive credentials.")
+    print("🚪 To access the sixth fragment, you need to provide the name of the file containing the sensitive credentials.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
-        print("✅ Access granted! You found the fourth flag. Nice! Click next at the bottom right corner of the page to proceed.")
+        print("✅ Access granted! You found the fifth flag. Nice! Click next at the bottom right corner of the page to proceed.")
         time.sleep(1)
         download_reward()
     else:
