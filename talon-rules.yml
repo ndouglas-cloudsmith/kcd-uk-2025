@@ -33,10 +33,10 @@
       parameters:
         grace_period_seconds: 0
 
-- rule: Detect outbound connections to common miner pool ports
+- rule: Netcat Remote Code Execution in Container
   match:
     rules:
-      - Detect outbound connections to common miner pool ports
+      - Netcat Remote Code Execution in Container
   actions:
     - action: Disable outbound connections
     - action: Annotate the pod
