@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "k8s.gcr.io/multitenancy/externalip-webhook:v1.0.0"
+PASSWORD = "CVE-2020-8555"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward5.txt"
@@ -29,7 +29,7 @@ def password_protected():
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
-        print("✅ Access granted! You found the fifth flag. Nice! Click next at the bottom right corner of the page to proceed.")
+        print("✅ Access granted! You found the fifth flag. Nice! You have now completed the first stage of the CTF.")
         time.sleep(1)
         download_reward()
     else:
