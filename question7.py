@@ -15,7 +15,7 @@ import sys
 PASSWORD = "GHSA-j7hp-h8jx-5ppr"
 
 def download_reward():
-    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward6.txt"
+    reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward7.txt"
     save_as = "reward6.txt"
     try:
         print("\n📥 Downloading your reward file...")
