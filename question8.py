@@ -16,7 +16,7 @@ PASSWORD = "GHSA-j7hp-h8jx-5ppr"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward8.txt"
-    save_as = "reward6.txt"
+    save_as = "reward8.txt"
     try:
         print("\n📥 Downloading your reward file...")
         urllib.request.urlretrieve(reward_url, save_as)
