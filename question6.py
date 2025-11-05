@@ -29,7 +29,7 @@ def password_protected():
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
-        print("✅ Access granted! You found the sixth flag. Nice! You have now completed the first stage of the CTF.")
+        print("✅ Access granted! You found the sixth flag. Nice! You have now completed the sixth stage of the CTF.")
         time.sleep(1)
         download_reward()
     else:
