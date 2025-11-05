@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  # Give it an innocent name that blends in
+  name: recommendationservice-config
+  namespace: default # Or whichever namespace the app is in
+data:
+  # Some believable-looking keys
+  RECOMMENDATION_CACHE_SIZE: "512"
+  PARTNER_API_ENDPOINT: "https://api.partner.com/v1/"
+  
+  # The "accidental" secret... which is the flag
+  PARTNER_API_KEY: "flag{Tr1vy_f1nds_m0r3_th4n_CVEs}"
