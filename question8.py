@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "GHSA-j7hp-h8jx-5ppr"
+PASSWORD = "flag{Tr1vy_f1nds_m0r3_th4n_CVEs}"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward8.txt"
