@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "KSV015"
+PASSWORD = "276f132e9ff17dfd00b869b0197627b32f4ebe38"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward9.txt"
@@ -25,7 +25,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the eight fragment, you need to provide the GHSA ID of the package that shows in a KEV index.")
+    print("🚪 To access the penultimate fragment, you need to provide the commit for the insecure github secret exposure")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
