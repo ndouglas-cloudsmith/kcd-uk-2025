@@ -25,7 +25,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the eight fragment, you need to provide the GHSA ID of the package that shows in a KEV index.")
+    print("🚪 To access the eight fragment, you need to provide the Check ID of the HIGH severity misconfiguration for default security context.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
