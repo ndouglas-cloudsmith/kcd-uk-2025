@@ -16,7 +16,15 @@ spec:
       # --- MISCONFIGURATION (POD) ---
       # Shares the host's process ID namespace.
       hostPID: true
-      # ------------------------------
+      
+      # --- NEW CRITICAL MISCONFIGURATION (POD) ---
+      # 1. Define a volume that points to the host's root path
+      volumes:
+      - name: host-root-fs
+        hostPath:
+          path: / 
+      # -----------------------------------------
+
       containers:
       - name: main
         image: busybox:1.36
@@ -27,10 +35,17 @@ spec:
           value: "xoxb-1234567890-0987654321-aBcDeFgHiJkLmNoPqRs"
         - name: INTERNAL_API_KEY
           value: "sk_live_1234567890abcdefghijklmnopqrstuv"
+        
+        # --- NEW CRITICAL MISCONFIGURATION (CONTAINER) ---
+        # 2. Mount that volume into the container
+        volumeMounts:
+        - name: host-root-fs
+          mountPath: /host-root
+        # ---------------------------------------------
           
-        # --- MISCONFIGURATIONS (CONTAINER) ---
+        # --- OTHER MISCONFIGURATIONS ---
         securityContext:
-          # (Critical) Gives the container root access to the host
+          # (Critical/High) Gives the container root access to the host
           privileged: true
           
           # (High) Allows the container to escalate privileges
