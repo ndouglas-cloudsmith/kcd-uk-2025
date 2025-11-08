@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "1234"
+PASSWORD = "276f132e9ff17dfd00b869b0197627b32f4ebe38"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward10.txt"
@@ -25,11 +25,11 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the final fragment, you need to provide the ...")
+    print("🚪 To access the final fragment, you need to find the container image that was exploited for AWS credential retrieval")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
-        print("✅ Access granted! You found the final flag. Congratulations!")
+        print("✅ Access granted! You found the finally flag. CONGRATULATIONS!")
         time.sleep(1)
         download_reward()
     else:
