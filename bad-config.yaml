@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bad-app-config
+  namespace: google
+data:
+  app.setting: "production"
+  # Trivy will find these high-entropy strings and flag them
+  AWS_SECRET_ACCESS_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  DB_PASSWORD: "my-super-secret-password-12345!"
