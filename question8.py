@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "KSV015"
+PASSWORD = "KSV005"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward8.txt"
