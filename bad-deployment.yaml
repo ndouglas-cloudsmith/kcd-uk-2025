@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: insecure-worker
-  namespace: default
+  namespace: google
 spec:
   replicas: 1
   selector:
