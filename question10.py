@@ -12,7 +12,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "276f132e9ff17dfd00b869b0197627b32f4ebe38"
+PASSWORD = "40546"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward10.txt"
@@ -25,7 +25,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the final fragment, you need to find the container image that was exploited for AWS credential retrieval")
+    print("🚪 To access the final fragment, you need to find the lport number used as part of an unexpected Kubernetes API Server communication.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
