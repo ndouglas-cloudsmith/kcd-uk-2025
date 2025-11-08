@@ -13,6 +13,10 @@ spec:
       labels:
         app: insecure-worker
     spec:
+      # --- MISCONFIGURATION (POD) ---
+      # Shares the host's process ID namespace.
+      hostPID: true
+      # ------------------------------
       containers:
       - name: main
         image: busybox:1.36
@@ -23,3 +27,20 @@ spec:
           value: "xoxb-1234567890-0987654321-aBcDeFgHiJkLmNoPqRs"
         - name: INTERNAL_API_KEY
           value: "sk_live_1234567890abcdefghijklmnopqrstuv"
+          
+        # --- MISCONFIGURATIONS (CONTAINER) ---
+        securityContext:
+          # (Critical) Gives the container root access to the host
+          privileged: true
+          
+          # (High) Allows the container to escalate privileges
+          allowPrivilegeEscalation: true
+          
+          # (High) Explicitly running as the root user
+          runAsUser: 0
+          
+          # (High) Adding dangerous capabilities
+          capabilities:
+            add:
+            - "NET_RAW"
+        # ----------------------------------------
