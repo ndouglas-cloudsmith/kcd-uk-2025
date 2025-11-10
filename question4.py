@@ -151,7 +151,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the fourth fragment, you need to provide the name of the file containing the sensitive credentials.")
+    print("🚪 To access the fourth fragment, you need to find what the SecurityContext was set to for the Meshery Helm chart that is exposed by default to the public internet.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
