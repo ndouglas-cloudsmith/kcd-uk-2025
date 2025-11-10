@@ -138,7 +138,7 @@ import urllib.request
 import sys
 
 # --- Password Protection ---
-PASSWORD = "sketchy-deployment.yaml"
+PASSWORD = "{}"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward4.txt"
