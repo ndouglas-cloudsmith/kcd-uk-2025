@@ -151,7 +151,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the sixth fragment, you need to provide the name of the file containing the sensitive credentials.")
+    print("🚪 To access the sixth fragment, you need to provide the CVE from 2020 that was subhect to SSRF-related attacks.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
