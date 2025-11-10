@@ -7,6 +7,132 @@
 # The answers lie not in the code, but in the clues you've been given.
 # Resist the urge. Proceed as instructed by the ASCII Dogs. 👁️
 
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+# 92hF&^#% 3jK@!L:; 8*($jDk9 11010100
+# 00101011 7g8hJkLpQ 5rT6yU7iO 9zXvBnM,
+# !@#--%^& 0xFA 0x55 0xAA 0x1F jf8j(Ds
+# zZzYyY 901jfa-v0 10010110 77d6%sF& kL
+# 8j*d^fF $Dk(l) 0x9B 1110001 44j(D%s
+
 import time
 import urllib.request
 import sys
