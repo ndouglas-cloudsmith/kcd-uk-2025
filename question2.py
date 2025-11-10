@@ -136,9 +136,11 @@
 import time
 import urllib.request
 import sys
+import base64 # Import the base64 module
 
 # --- Password Protection ---
-PASSWORD = "MAL-2022-7441"
+# Store the Base64 encoded password
+ENCODED_PASSWORD = "TUFM-MjAyMi03NDQx"
 
 def download_reward():
     reward_url = "https://raw.githubusercontent.com/ndouglas-cloudsmith/offsite-scripts/refs/heads/main/reward2.txt"
@@ -151,10 +153,19 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
+    # Decode the password at runtime
+    # .b64decode() returns bytes, so we .decode('utf-8') to get a string
+    try:
+        DECODED_PASSWORD = base64.b64decode(ENCODED_PASSWORD).decode('utf-8')
+    except Exception as e:
+        print(f"Error decoding password in script: {e}")
+        sys.exit(1)
+
     print("🚪 To access the second fragment, you need to provide the MALWARE ID associated with the one Python package in our running pod")
-    # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
-    if user_input == PASSWORD:
+    
+    # Compare the user's input to the decoded password
+    if user_input == DECODED_PASSWORD:
         print("✅ Access granted! You found the second flag. Nice! Click next at the bottom right corner of the page to proceed.")
         time.sleep(1)
         download_reward()
