@@ -151,7 +151,7 @@ def download_reward():
         print(f"❌ Failed to download the reward: {e}")
 
 def password_protected():
-    print("🚪 To access the third fragment, you need to name of the Gatekeeper constraint that denied the deployment.")
+    print("🚪 To access the second fragment, you need the malware ID of the typosquatted python package.")
     # Changed from getpass.getpass() to input() to make typing visible
     user_input = input("Password: ") 
     if user_input == PASSWORD:
